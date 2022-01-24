@@ -26,6 +26,7 @@ sly = House.create(
     house_id: gryff.id    
   )
 end 
+
 2.times do 
   student = Student.create(
     name: Faker::Name.name,
@@ -33,6 +34,7 @@ end
     house_id: raven.id    
   )
 end 
+
 2.times do 
   student = Student.create(
     name: Faker::Name.name,
@@ -40,6 +42,7 @@ end
     house_id: huff.id    
   )
 end 
+
 2.times do 
   student = Student.create(
     name: Faker::Name.name,
@@ -47,5 +50,11 @@ end
     house_id: sly.id    
   )
 end 
+
+harry = Student.create(
+  name: "Harry Potter",
+  year_at_school: 7,
+  house_id: 1
+)
 
 puts "✅ Done seeding!"
