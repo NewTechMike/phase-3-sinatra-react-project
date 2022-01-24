@@ -18,6 +18,30 @@ class ApplicationController < Sinatra::Base
     end
     gryff.to_json(only: [:name, :year_at_school])
   end 
+
+  get "/ravenclaw" do 
+    # Need all Students with a house_id of 21
+    raven = Student.all.select do |h_id|
+      h_id.house_id == 22
+    end
+    raven.to_json(only: [:name, :year_at_school])
+  end 
+
+  get "/hufflepuff" do 
+    # Need all Students with a house_id of 21
+    huff = Student.all.select do |h_id|
+      h_id.house_id == 21
+    end
+    huff.to_json(only: [:name, :year_at_school])
+  end 
+
+  get "/slytherin" do 
+    # Need all Students with a house_id of 21
+    sly = Student.all.select do |h_id|
+      h_id.house_id == 21
+    end
+    sly.to_json(only: [:name, :year_at_school])
+  end 
   
   get "/students" do 
     student = Student.all
