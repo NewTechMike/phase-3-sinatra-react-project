@@ -8,11 +8,19 @@ class ApplicationController < Sinatra::Base
 
   get "/houses" do 
     house = House.all
-    house.to_json
+    house.to_json(only: [:house_name, :student_count])
   end
+
+  get "/gryffindor" do 
+    # Need all Students with a house_id of 21
+    gryff = Student.all.select do |h_id|
+      h_id.house_id == 21
+    end
+    gryff.to_json(only: [:name, :year_at_school])
+  end 
   
   get "/students" do 
     student = Student.all
-    student.to_json
+    student.to_json(only: [:name, :year_at_school])
   end
 end
