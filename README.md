@@ -1,3 +1,24 @@
+# Title: Current Hogwarts Houses
+
+## Introduction
+
+# Overview
+- This will be an app that lists the students of Hogwarts by the House they'be been sorted into
+
+
+# Pages
+* Home Page: Welcome to the Home Page
+* Add student: adds student to student list and "Sorts" them into one of the Four Houses
+* List Griffindor students
+* List Ravenclaw students
+* List Hufflepuff students
+* List Slytherin students
+* List All students
+
+
+
+
+
 # Phase 3 Project Guidelines
 
 ## Learning Goals
