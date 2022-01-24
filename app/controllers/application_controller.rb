@@ -3,7 +3,16 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { message: "Welcome to the Home Page" }.to_json
+    { message: "Welcome to the Home Page" }.to_json 
   end
 
+  get "/houses" do 
+    house = House.all
+    house.to_json
+  end
+  
+  get "/students" do 
+    student = Student.all
+    student.to_json
+  end
 end
