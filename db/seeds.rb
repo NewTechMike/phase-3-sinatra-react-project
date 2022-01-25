@@ -16,7 +16,7 @@ huff = House.create(
 )
 sly = House.create(
   house_name: "Slytherin",
-  student_count: 10
+  student_count: Student.count
 )
 
 2.times do 
