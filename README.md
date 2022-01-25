@@ -16,7 +16,17 @@
 * List All students
 
 
+# Structure
+* Models: House has_many Students
+* Migrate: House should have a list of students and student count for each house. Students have name, age, year in Hogwarts and house id
 
+# Features
+* Able to list all students by house or all together
+* When adding a new student, student count increases
+* Can remove (delete) a student when they leave or gradudate
+
+# Strech Goals
+* Sort all students Alphabetically or by year at school
 
 
 # Phase 3 Project Guidelines
