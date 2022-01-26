@@ -79,6 +79,6 @@ class ApplicationController < Sinatra::Base
   get "/students" do 
     # Lists Students currently attending Hogwarts
     student = Student.all
-    student.to_json(only: [:name, :year_at_school])
+    student.to_json(only: [:name, :year_at_school, :house_id])
   end
 end
