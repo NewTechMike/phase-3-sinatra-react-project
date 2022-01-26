@@ -6,9 +6,10 @@ class ApplicationController < Sinatra::Base
     { message: "Welcome to the Home Page" }.to_json 
   end
 
-  # Looking to figure out how to increment student_count
-  # when a new student is added
-  # Also, how to I separate student_count by each House
+  # Questions:
+  # Seeding/replanting with Houses keeping same house_id
+  # how to increment student_count when a new student is added
+  # how to separate student_count by each House
 
   patch "/students/:id" do
     student = Student.find(params[:id])
