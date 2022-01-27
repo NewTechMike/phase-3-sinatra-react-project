@@ -38,11 +38,11 @@ class ApplicationController < Sinatra::Base
 
   get "/houses/:id" do 
    students = House.find(params[:id]).students
-   students.to_json
+   students.to_json(only: [:name])
   end 
   
   get "/students" do 
     students = Student.all
-    students.to_json(only: [:name, :year_at_school, :house_id])
+    students.to_json(only: [:name])
   end
 end

@@ -3,20 +3,16 @@ puts "🌱 Seeding spices..."
 # Seed your database here
 
 gryff = House.create(
-  name: "Gryffindor",
-  student_count: gryff.student.count
+  name: "Gryffindor"
 )
 raven = House.create(
-  name: "Ravenclaw",
-  student_count: raven.student.count
+  name: "Ravenclaw"
 )
 huff = House.create(
-  name: "Hufflepuff",
-  student_count: huff.students.count
+  name: "Hufflepuff"
 )
 sly = House.create(
-  name: "Slytherin",
-  student_count: sly.student.count
+  name: "Slytherin"
 )
 
 2.times do 

@@ -3,8 +3,11 @@ class Student < ActiveRecord::Base
 
   def self.name_list
     Student.all.each do |student|
-      puts student.name
+      student.name
     end
   end 
 
+  def self.students_of_house
+    puts self.students
+  end
 end
