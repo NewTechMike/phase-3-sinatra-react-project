@@ -26,7 +26,7 @@ class ApplicationController < Sinatra::Base
   end
 
   delete "/students/:id" do 
-    student = Student.find(params[:id])
+    student = Student.find_by(params[:id])
     student.destroy
     student.to_json
   end 
