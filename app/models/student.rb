@@ -4,6 +4,8 @@ class Student < ActiveRecord::Base
   def self.name_list
     Student.all.each do |student|
       student.name
+      puts student.year_at_school
+      puts student.name
     end
   end 
 
