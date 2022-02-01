@@ -28,37 +28,35 @@
 # Strech Goals
 * Sort all students Alphabetically or by year at school
 
-# Frontend
-* The frontend is configured with 
+## Setup and installation
+# Repositories
+* Fork and clone frontend and backend repos to the same folder
+* In Terminal, ```bash cd `` into the appropriate directory and run the required lines
+* Frontend Repo: https://github.com/NewTechMike/hogwarts-student-list.git
 ``` bash 
 npm install react-router-dom@5 
-```
-and loaded with 
 
-```bash
 npm start
 ```
-* Runs on browser with http://localhost:3000
-* Git Hub repo: https://github.com/NewTechMike/hogwarts-student-list.git
+* Frontend runs on browser with http://localhost:3000
 
-# Backend
-* Start with 
-
+* Backend Repo: https://github.com/NewTechMike/phase-3-sinatra-react-project.git
 ```bash
 bundle install 
 ```
-then run 
 ```bash
 rake server
 ```
+* Backend database runs in browser using http://localhost:9292
 
-* The backend database runs in browser using http://localhost:9292
 
-
-# Resources and Requirements
-* Does require npm react-router-dom@5 due to using "Switch"
+# Resources
 * image source from: https://wallpaperaccess.com/hogwarts-castle#google_vignette
 * "Harry Potter" Font from: http://www.fontsaddict.com
+
+
+
+
 
 # Phase 3 Project Guidelines
 
