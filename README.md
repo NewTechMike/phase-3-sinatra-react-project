@@ -5,41 +5,11 @@
 # Overview
 - This is an app that lists the currently enrolled students of Hogwarts School of Witchcraft and Wizardry, and into which House they've been sorted 
 
-
-# Pages
-* Home Page: Welcome to the Home Page
-* Add student: adds student to student list and "Sorts" them into one of the Four Houses
-* List Griffindor students
-* List Ravenclaw students
-* List Hufflepuff students
-* List Slytherin students
-* List All students
-
-
-# Structure
-* Models: House has_many Students
-* Migrate: House should have a list of students and student count for each house. Students have name, age, year in Hogwarts and house id
-
-# Features
-* Able to list all students by house or all together
-* When adding a new student, student count increases
-* Can remove (delete) a student when they leave or gradudate
-
-# Strech Goals
-* Sort all students Alphabetically or by year at school
-
 ## Setup and installation
 # Repositories
 * Fork and clone frontend and backend repos to the same folder
 * In Terminal, ``` cd ``` into the appropriate directory and run the required lines
-* Frontend Repo: https://github.com/NewTechMike/hogwarts-student-list.git
-``` bash 
-npm install react-router-dom@5 
-```
-```bash
-npm start
-```
-* Frontend runs on browser with http://localhost:3000
+* Important: Load the backend first to get the database set up to be read from
 
 * Backend Repo: https://github.com/NewTechMike/phase-3-sinatra-react-project.git
 ```bash
@@ -50,10 +20,21 @@ rake server
 ```
 * Backend database runs in browser using http://localhost:9292
 
+* Frontend Repo: https://github.com/NewTechMike/hogwarts-student-list.git
+``` bash 
+npm install react-router-dom@5 
+```
+```bash
+npm start
+```
+* Frontend runs on browser with http://localhost:3000
 
 # Resources
-* image source from: https://wallpaperaccess.com/hogwarts-castle#google_vignette
-* "Harry Potter" Font from: http://www.fontsaddict.com
+- image source from: [wallpaperaccess] 
+* "Harry Potter" Font from: [fontsaddict] 
+
+[wallpaperaccess]: https://wallpaperaccess.com/hogwarts-castle#google_vignette
+[fontsaddict]: http://www.fontsaddict.com
 
 
 
