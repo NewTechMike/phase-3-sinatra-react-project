@@ -31,7 +31,7 @@
 ## Setup and installation
 # Repositories
 * Fork and clone frontend and backend repos to the same folder
-* In Terminal, ```bash cd ``` into the appropriate directory and run the required lines
+* In Terminal, ``` cd ``` into the appropriate directory and run the required lines
 * Frontend Repo: https://github.com/NewTechMike/hogwarts-student-list.git
 ``` bash 
 npm install react-router-dom@5 
