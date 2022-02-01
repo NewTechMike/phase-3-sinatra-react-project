@@ -1,9 +1,9 @@
-# Title: Current Hogwarts Houses
+# Hogwarts Student Registry
 
 ## Introduction
 
 # Overview
-- This will be an app that lists the students of Hogwarts by the House they'be been sorted into
+- This is an app that lists the currently enrolled students of Hogwarts School of Witchcraft and Wizardry, and into which House they've been sorted 
 
 
 # Pages
@@ -28,6 +28,37 @@
 # Strech Goals
 * Sort all students Alphabetically or by year at school
 
+# Frontend
+* The frontend is configured with 
+``` bash 
+npm install react-router-dom@5 
+```
+and loaded with 
+
+```bash
+npm start
+```
+* Runs on browser with http://localhost:3000
+* Git Hub repo: https://github.com/NewTechMike/hogwarts-student-list.git
+
+# Backend
+* Start with 
+
+```bash
+bundle install 
+```
+then run 
+```bash
+rake server
+```
+
+* The backend database runs in browser using http://localhost:9292
+
+
+# Resources and Requirements
+* Does require npm react-router-dom@5 due to using "Switch"
+* image source from: https://wallpaperaccess.com/hogwarts-castle#google_vignette
+* "Harry Potter" Font from: http://www.fontsaddict.com
 
 # Phase 3 Project Guidelines
 
